@@ -3,7 +3,6 @@ import styles from './GoBack.module.css';
 
 const Goback = () => {
   const location = useLocation();
-  console.log(location);
   return (
     <Link className={styles.backLink} to={location.state?.from ?? '/'}>
       {'<Back'}

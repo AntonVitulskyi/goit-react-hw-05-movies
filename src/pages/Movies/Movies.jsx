@@ -36,7 +36,7 @@ export default function Movies() {
         .catch(err => err)
         .finally(() => setIsLoading(false));
     }
-  }, [query]);
+  }, [query, searchParams]);
 
   return (
     <Container>
