@@ -1,0 +1,33 @@
+.headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.navigation {
+    gap: 20px;
+}
+
+.navLink {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    padding:  0 30px;
+}
+
+.navLink:hover {
+    color: rgb(59, 44, 44);
+    border: 1px solid rgb(169, 153, 153);
+    border-radius: 10px;
+    background-color: rgb(240, 225, 225); 
+}
+
+.navLinkActive {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    padding:  0 30px;
+    background-color: rgb(169, 153, 153);
+    border-radius: 10px;
+}
