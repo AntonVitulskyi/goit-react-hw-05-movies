@@ -36,9 +36,9 @@ export default function MovieDetails() {
             />
           </div>
           <div className={styles.rightBox}>
-            <h2 className={styles.mainTitle}>
+            <h1 className={styles.mainTitle}>
               {searchedDetails.original_title}
-            </h2>
+            </h1>
             <ul className={styles.list}>
               {searchedDetails.vote_average === 0 ? (
                 ''
